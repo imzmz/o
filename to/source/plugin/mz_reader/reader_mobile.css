@@ -1,0 +1,33 @@
+
+.txt_title{font-size:16px;font-weight:900;margin:10px auto;padding: 0 0 10px;}
+.txt_content{color: rgb(34, 34, 34);font-size: 16px;line-height: 1.7;}
+.txt_content{word-wrap: break-word;-ms-word-wrap: break-word;text-align: justify;text-justify: inter-ideograph;-webkit-hyphens: auto;-moz-hyphens: auto;-ms-hyphens: auto;hyphens: auto;text-indent: 2.0em;min-height: 2em;padding:20px;}
+.jammer,.size0{font-size:0;}
+.readnav{margin: 10px 0 0;padding: 10px 0;border-top: 1px solid #DDD;text-align: center;position: relative;}
+.readnav a {font-size: 14px;margin: 0 2px;padding: 0 2px;}
+.readrelate{overflow:hidden;margin-top:15px;}
+.readrelate li{display:inline-block;padding:3px 0;margin:2px 0;border-bottom:1px dotted #E0E0E0;list-style: circle;width:50%;height:20px;float:left;overflow:hidden;zoom:1;}
+.readrelate li a{margin:0 5px;}
+.readcomment{margin:10px 10px 0px;}
+/**/
+.go{width:47px;height:99px;background-color:#FFF;position: fixed;bottom: 40%;right: 10px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;display:none;border-radius:20px}
+_*html  .go{position:fixed;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||200)-(parseInt(this.currentStyle.marginBottom,10)||0)));right:12px;bottom:25%;border-radius:5px;box-shadow:0 0 2px #6E6E6E;filter:alpha(opacity=80);-moz-opacity:0.80;opacity:0.80;}
+
+.go a{background:url(images/top.png) no-repeat;display:block;text-indent:999em;width:37px;margin:5px;border:0;overflow:hidden;float:left}
+.go .go-top{background-position:0 -33px;height:22px}
+.go .go-feedback{background-position:0 -54px;height:32px}
+.go .go-bottom{background-position:0 -88px;height:22px}
+.go .go-top:hover{background-position:-38px -33px}
+.go .go-feedback:hover{background-position:-38px -54px}
+.go .go-bottom:hover{background-position:-38px -88px}
+.go .go-right{background-position:0 -33px;height:22px;-webkit-transform: rotateZ(90deg);}
+.go .go-left{background-position:0 -33px;height:22px;-webkit-transform: rotateZ(-90deg);}
+ .read-light {position:fixed;z-index:-1;background:rgba(0,0,0,0.6);top:0;left:0;right:0;bottom:0;display:none}
+ .read-tab{width:100%;box-sizing: border-box;;background:#5CB9E0;
+    overflow: hidden;height:40px;line-height:40px;}
+ .read-tab a{
+    text-align: center;
+    width: 16.66%;
+    color:#FFF;
+    float: left;
+    box-sizing: border-box;}
